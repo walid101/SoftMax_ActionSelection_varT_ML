@@ -23,6 +23,6 @@ def main():
     # myData3.plot(ax=ax)
     # plt.show()
     evalNBandit(1)
-
+    #eval bandit is to test ML n-bandit problem - Check Sutton's book
 if __name__ == "__main__":
     main()
