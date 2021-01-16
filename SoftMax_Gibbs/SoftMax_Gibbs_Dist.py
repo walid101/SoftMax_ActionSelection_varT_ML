@@ -12,7 +12,7 @@ def evalNBandit(epsChance):
     total_turns = 5000;
     num_slots = 10;
 
-    ##for each slot how many wins does it incur? how many LOSSES does it incur?
+    ##for each slot how many wins does it incur? how many LOSSES does it incur? ->
     num_wins = np.zeros(num_slots);
     num_lost = np.zeros(num_slots);
     total_reward = np.zeros(total_turns);
